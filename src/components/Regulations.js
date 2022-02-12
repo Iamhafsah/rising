@@ -12,7 +12,8 @@ const Regulations = () => {
         </div>
 
         <div className='bgwhite flex flex-col justify-center items-center'>
-            <h1 className='lg:text-[40px] text-[32px] font-semibold text-center md:text-left leading-none mb-4 sm:mb-0 '>How we are Regulated</h1>
+            <h1 className='lg:text-[40px] text-[32px] font-semibold text-center md:text-left leading-none mb-4 '>How we are Regulated</h1>
+
             <p className='text-center md:w-[490px] leading-[24px] '>Rise is registered and regulated both in the US and in Nigeria. Our team is made up of US registered investment advisers, our Nigerian users are covered by our SEC licensed trustees, ARM Trustees and all our assets are held with regulated third parties, in all relevant jurisdictions</p>
         </div>
 

@@ -11,7 +11,8 @@ const paragraphStyle = ctl(`h-[200px]`)
 const Testimonials = () => {
   return (
    <section className='mb-[100px]  '>
-       <h1 className='md:text-[40px]  text-[32px] font-semibold leading-none text-teal2 text-center '>From The People Who Use Rise</h1>
+       <h1 className='md:text-[40px]  text-[32px] font-semibold leading-none text-teal2 text-center mb-4'>From The People Who Use Rise</h1>
+       
        <p className='text-center text-[18px] md:w-[502px] mx-auto mb-10 '>Our mission at Risevest is to empower more people just like you to achieve your personal financial goals.</p>
 
        <div className='overflow-auto py-4 testiomonials-wrap'>

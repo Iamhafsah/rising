@@ -45,8 +45,8 @@ const Navbar = () => {
         </ul>
 
           {/* mobile nav */}
-          <nav className={`h-screen top-0 w-full mobile-nav md:hidden absolute bg-white text-teal1 transition-all ease-in-out duration-500 z-10 ${mobileNavOpen ? 'right-0' :'right-[-700px]'} `}>
-            <div className='flex justify-between px-14 py-10'>
+          <nav className={`h-screen  top-0 w-full mobile-nav md:hidden absolute bg-white text-teal1 transition-all ease-in-out duration-500 z-10 ${mobileNavOpen ? 'left-0' :'left-[100%]'} `}>
+            <div className='flex justify-between items-center px-14 py-10'>
               <img src={logo} alt='rise logo' />
 
               <span 

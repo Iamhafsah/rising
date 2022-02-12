@@ -9,6 +9,7 @@
 
 body{
     font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
 }
 .nav-ul li{
     @apply cursor-pointer;
