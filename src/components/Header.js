@@ -24,7 +24,7 @@ const Header = () => {
     <>
     <section className={pageWrapStyle}>
         <div className={heroTextWrapStyle}>
-            <h1 className={headingStyle}>Dollar investments <br className=''/> that  help you grow <p className='-mt-6 ml-2 absolute inline text-teal2'>.</p> </h1>
+            <h1 className={headingStyle}>Dollar investments <br className=''/> that  help you grow <p className='md:-mt-6 -mt-4 md:ml-2 ml-1 absolute inline text-teal2'>.</p> </h1>
             <p className={paragraphStyle}>We put your money in high quality assets that help you build wealth and achieve your financial goals.</p>
 
             <div className={downloadWrapStyle}>
