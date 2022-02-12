@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.nav-ul li{
+    @apply cursor-pointer;
+    @apply hover:font-bold;
+    @apply transition-all duration-300;
+    @apply flex flex-col items-center ;
+}
+.nav-ul li:hover > .hover-dot{
+    @apply text-inherit;
+}
+.mobile-nav ul li{
+    @apply mb-7;
+    @apply cursor-pointer;
+    @apply hover:font-semibold;
+    @apply hover:tracking-wider;
+    @apply transition-all duration-300;
+   }
+.partners img{
+    @apply lg:scale-[1.2] ;
+}
+.partners .arm{
+    @apply w-[40px] sm:w-auto;
+}
+.partners .western{
+    @apply w-[100px] sm:w-auto;
+}
+.midsection-img{
+    @apply md:w-[40vw] lg:w-auto;
+}
+.footer-items ul li{
+    @apply mb-4;
+}
+.testiomonials-wrap::-webkit-scrollbar{
+    display: none;
+}
+.floating{
+    @apply mb-10 mx-auto;
+    @apply flex justify-between  ;
+    @apply max-w-[90vw];
+    z-index: -10;
+    @apply relative;
+}
+.floating span{
+    @apply p-1 ;
+    @apply rounded-full;
+    @apply bg-teal3;
+    @apply opacity-[.6];
+    @apply w-10 h-10 ;
+	animation: animate 25s linear infinite;
+}
+.floating span:nth-child(2){
+    animation-duration: 20s;
+    @apply w-5 h-5;
+}
+.floating span:nth-child(3){
+    animation-duration: 34s;
+}
+.floating span:nth-child(4){
+    animation-duration: 29s;
+    @apply w-5 h-5;
+}
+.floating span:nth-child(5){
+    animation-duration: 38s;
+}
+.floating span:nth-child(6){
+    animation-duration: 23s;
+}
+.floating span:nth-child(7){
+    animation-duration: 29s;
+    @apply w-5 h-5;
+}
+.floating span:nth-child(8){
+    animation-duration: 36s;
+}
+.floating span:nth-child(9){
+    animation-duration: 17s;
+}
+.floating span:nth-child(10){
+    animation-duration: 40s;
+    @apply w-5 h-5;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 0;
+	}
+	50% {
+		transform: translateY(-60vh) rotate(360deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-120vh) rotate(720deg);
+		opacity: 0;
+	}
+}
