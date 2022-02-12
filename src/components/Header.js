@@ -8,7 +8,7 @@ const pageWrapStyle = ctl(`flex flex-col md:flex-row items-center justify-betwee
 
 const heroTextWrapStyle = ctl(` max-w-[470px] 2xl:max-w-[556px] md:mt-[-180px] mt-10 md:block flex flex-col justify-center items-center `)
 
-const headingStyle = ctl(`md:text-[56px] text-[40px] text-teal1 font-medium tracking-[-0.05em] 2xl:tracking-[-0.03em] md:leading-[60px] leading-[40px] 2xl:font-extrabold font-bold text-center md:text-left`)
+const headingStyle = ctl(`md:text-[56px] text-[40px] text-teal1 font-medium tracking-[-0.05em] 2xl:tracking-[-0.03em] md:leading-[60px] leading-[40px] 2xl:font-extrabold font-bold text-center md:text-left `)
 
 const paragraphStyle = ctl(`text-rise-dark leading-[24px] mt-6 mb-8 max-w-[391px]  `)
 
@@ -24,7 +24,8 @@ const Header = () => {
     <>
     <section className={pageWrapStyle}>
         <div className={heroTextWrapStyle}>
-            <h1 className={headingStyle}>Dollar investments <br className=''/> that  help you grow <p className='md:-mt-6 -mt-4 md:ml-2 ml-1 absolute inline text-teal2'>.</p> </h1>
+            <h1 className={headingStyle}>Dollar investments <br/> that  help you grow 
+            <sup className='text-teal2 ml-1 '>.</sup> </h1>
             <p className={paragraphStyle}>We put your money in high quality assets that help you build wealth and achieve your financial goals.</p>
 
             <div className={downloadWrapStyle}>
